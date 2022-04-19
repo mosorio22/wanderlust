@@ -3,14 +3,12 @@ import './HeroImage.css';
 
 function HeroImage(props) {
     return (
-        <div
-            class='hero-image'
-        >
-            <div class="hero-text">
+        <header className='hero-image'>
+            <div className="hero-text">
                 <h1>Wanderlust</h1>
                 <p>Adventure Awaits</p>
             </div>
-        </div>
+        </header>
     );
 }
 
