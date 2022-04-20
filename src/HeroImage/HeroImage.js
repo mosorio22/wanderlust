@@ -1,7 +1,7 @@
 import React from 'react';
 import './HeroImage.css';
 
-function HeroImage(props) {
+function HeroImage() {
     return (
         <header className='hero-image'>
             <div className="hero-text">
