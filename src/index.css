@@ -9,3 +9,7 @@ body, html, #root {
 body {
 	background-color: lemonchiffon;
 }
+
+.main-section {
+	height: 50%;
+}
