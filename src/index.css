@@ -10,6 +10,10 @@ body {
 	background-color: lemonchiffon;
 }
 
+.header-section {
+	height: 25%;
+}
+
 .main-section {
 	height: 50%;
 }
