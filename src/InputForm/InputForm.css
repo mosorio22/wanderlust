@@ -1,0 +1,32 @@
+.inputForm {
+	color: black;
+    font-size: 1em;
+    height: 100%;
+	text-align: center;
+    border: 1px solid black;
+    padding: 1.5em 0;
+}
+
+.label {
+    font-size: 1.4em;
+}
+
+.zipInput {
+    margin-right: 1em;
+    min-height: 2.5em;
+    min-width: 13em;
+    border-radius: 0.5em;
+    vertical-align: middle;
+}
+
+.zipInput::placeholder {
+    padding-left: 0.5em;
+}
+
+.zipSubmit {
+    min-height: 2.5em;
+    min-width: 8em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    vertical-align: middle;
+}

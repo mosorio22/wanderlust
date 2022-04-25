@@ -10,16 +10,10 @@ body {
 	background-color: lemonchiffon;
 }
 
-.header-section {
+.header {
 	height: 25%;
 }
 
-.main-section {
-	height: 50%;
-}
-
-@media (min-width: 768px) {
-	.main-section {
-		width: 50%;
-	}
+.input {
+	padding: 1.5em 1.5em 0 1.5em;
 }
