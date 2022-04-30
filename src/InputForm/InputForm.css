@@ -3,8 +3,9 @@
     font-size: 1em;
     height: 100%;
 	text-align: center;
-    border: 1px solid black;
     padding: 1.5em 0;
+    background-color: hsla(0, 0%, 100%, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .label {
@@ -12,11 +13,12 @@
 }
 
 .zipInput {
-    margin-right: 1em;
-    min-height: 2.5em;
-    min-width: 13em;
+    min-height: 2.25em;
     border-radius: 0.5em;
     vertical-align: middle;
+    margin-bottom: 1em;
+    width: 75%;
+    max-width: 20em;
 }
 
 .zipInput::placeholder {
@@ -24,9 +26,18 @@
 }
 
 .zipSubmit {
-    min-height: 2.5em;
-    min-width: 8em;
+    min-height: 1.5em;
+    min-width: 5em;
     border-radius: 0.5em;
     font-size: 1em;
     vertical-align: middle;
+    background-color: springgreen;
+}
+
+@media screen and (min-width: 360px){
+    .zipInput {
+        margin-right: 1em;
+        margin-bottom: 0;
+        width: 15em;
+    }
 }

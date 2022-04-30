@@ -9,9 +9,10 @@ import HeroImage from './HeroImage/HeroImage'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className='navigation' />
-    <HeroImage />
+    <nav className='navigation'>
+    </nav>
     <main className='main'>
+        <HeroImage />
     </main>
   </React.StrictMode>
 );
