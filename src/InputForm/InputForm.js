@@ -5,7 +5,6 @@ export default function InputForm() {
     const [zipCode, setZipCode] = useState("");
 
     const handleChange = (event) => {
-        console.log(event);
         setZipCode(event.target.value);
     };
 
@@ -15,10 +14,10 @@ export default function InputForm() {
 
     return (
         <div className="inputForm">
-            <form onSubmit={handleSubmit}>
+            <form>
                 <input className="zipInput" placeholder="Please enter your zip code" type="text" name="zipCode" value={zipCode} onChange={handleChange} required />
 
-                <input className="zipSubmit" type="submit" value="Submit" />
+                <input className="zipSubmit" onClick={handleSubmit} type="button" value="Submit" />
             </form>
         </div>
     )

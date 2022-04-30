@@ -10,10 +10,15 @@ body {
 	background-color: lemonchiffon;
 }
 
-.header {
-	height: 25%;
+.main {
+	height: 50%;
 }
 
 .input {
 	padding: 1.5em 1.5em 0 1.5em;
+}
+
+.navigation {
+	height: 2.5em;
+	background-color: #228B15;
 }
